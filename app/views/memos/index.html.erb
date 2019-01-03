@@ -1,3 +1,4 @@
+    
     <h3>Memo List</h3>
     
     <% @memos.each do |memo| %>
@@ -8,7 +9,7 @@
             <p>カテゴリ未設定</p>
             <div class="buttons">
               <a href="/memos/<%=memo.id%>" data-method="delete"><span class="glyphicon glyphicon-trash"></span></a>
-              <a href="/memos/<%=memo.id%>/edit"><span class="glyphicon glyphicon-edit"></span></a></div>
+              <a href="/memos/<%=memo.id%>/edit"><span class="glyphicon glyphicon-edit"></span></a>
             </div>
           </div>
           <div class="panel-body">
