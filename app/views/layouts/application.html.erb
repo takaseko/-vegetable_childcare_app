@@ -4,24 +4,9 @@
     <title>やさいくメモ</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     
-     <script src="//ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
-    <script src="https://school.oohara.jp/takase/jquery.bgswitcher.js"></script>
-  <script>
-jQuery(function($) {
-    $('.bg-slider').bgSwitcher({
-        images: ['https://school.oohara.jp/takase/child-vege.jpg','https://school.oohara.jp/takase/cucumber.jpg','https://school.oohara.jp/takase/tomato.jpg','https://school.oohara.jp/takase/corn.jpg','https://school.oohara.jp/takase/eggplant.jpg','https://school.oohara.jp/takase/white-radish.jpg'],
-      interval: 5000, // 背景画像を切り替える間隔を指定 3000=3秒
-      effect: "fade",// 切り替える背景画像を指定します。
-      duration: 1000, // エフェクトの時間を指定します。
-      easing: "swing" // エフェクトのイージングをlinear,swingから指定
-    });
-});
-
-  </script>
+   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+   <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
 
   </head>
 

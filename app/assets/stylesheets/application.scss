@@ -16,6 +16,7 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+
 .glyphicon{
     color: #e0a957;
 }
@@ -32,5 +33,5 @@
 	background-size: cover;
 	align-items: center;
 	justify-content: center;
+	background-image: image-url('vegetables2.jpg');
 }
-
