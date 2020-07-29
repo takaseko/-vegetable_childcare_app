@@ -30,7 +30,7 @@ https://kohei0103-memo.herokuapp.com/
 https://github.com/takaseko/-vegetable_childcare_app.git
 ```
  
-## 注意点()
+## 注意点(Note)
  
 削除する時に、即削除してしまいます。
 「削除しますか？」という、警告機能は改修中となります。
