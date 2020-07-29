@@ -1,4 +1,4 @@
-## やさいくメモ（vegetable_childcare_app）
+# やさいくメモ（vegetable_childcare_app）
  
 【コンセプト】
 野菜の育児　楽しく忘れずメモで
